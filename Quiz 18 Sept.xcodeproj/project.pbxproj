@@ -14,6 +14,8 @@
 		AF074D041F6F753200A1111E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF074D021F6F753200A1111E /* LaunchScreen.storyboard */; };
 		AF074D0F1F6F753200A1111E /* Quiz_18_SeptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF074D0E1F6F753200A1111E /* Quiz_18_SeptTests.swift */; };
 		AF074D1A1F6F753200A1111E /* Quiz_18_SeptUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF074D191F6F753200A1111E /* Quiz_18_SeptUITests.swift */; };
+		AF074D281F6F766A00A1111E /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF074D271F6F766A00A1111E /* StatusViewController.swift */; };
+		AF074D2A1F6F7BB800A1111E /* HotelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF074D291F6F7BB800A1111E /* HotelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		AF074D151F6F753200A1111E /* Quiz 18 SeptUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quiz 18 SeptUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF074D191F6F753200A1111E /* Quiz_18_SeptUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quiz_18_SeptUITests.swift; sourceTree = "<group>"; };
 		AF074D1B1F6F753200A1111E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AF074D271F6F766A00A1111E /* StatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
+		AF074D291F6F7BB800A1111E /* HotelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				AF074D001F6F753200A1111E /* Assets.xcassets */,
 				AF074D021F6F753200A1111E /* LaunchScreen.storyboard */,
 				AF074D051F6F753200A1111E /* Info.plist */,
+				AF074D271F6F766A00A1111E /* StatusViewController.swift */,
+				AF074D291F6F7BB800A1111E /* HotelViewController.swift */,
 			);
 			path = "Quiz 18 Sept";
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF074CFC1F6F753200A1111E /* ViewController.swift in Sources */,
+				AF074D281F6F766A00A1111E /* StatusViewController.swift in Sources */,
 				AF074CFA1F6F753200A1111E /* AppDelegate.swift in Sources */,
+				AF074D2A1F6F7BB800A1111E /* HotelViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
